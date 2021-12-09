@@ -1,6 +1,9 @@
 # Princess_World
 A game powered by CSS and JavaScript.  Made for my niece Kenley =)
 
+## Live URL
+[https://chaskin91.github.io/Princess_World/]
+
 ## Original Inspiration
 Dragon World Game [https://www.geeksforgeeks.org/design-dragons-world-game-using-html-css-and-javascript/]
 
