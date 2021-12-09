@@ -1,23 +1,23 @@
 cross = true;
 score = 0;
     document.onkeydown = function(e) {
-        console.log(e.KeyboardEvent);
-        if (e.KeyboardEvent == 38) {
+        console.log(e.keyCode);
+        if (e.keyCode == 38) {
             princess = document.querySelector('.princess');
             princess.classList.add('animateprincess');
 
             setTimeout(() => {
                 princess.classList.remove('animateprincess');
             }, 700);
-        }
-
-        if (e.KeyboardEvent == 37) {
+        }  
+        
+        if (e.keyCode == 37) {
             princess = document.querySelector('.princess');
             princessx = parseInt(window.getComputedStyle(princess, null).getPropertyValue('left'));
             princess.style.left = princessx - 112 + "px";
-        }
-
-        if (e.KeyboardEvent == 39) {
+        } 
+        
+        if (e.keyCode == 39) {
             princess = document.querySelector('.princess');
             princessx = parseInt(window.getComputedStyle(princess, null).getPropertyValue('left'));
             princess.style.left = princessx + 112 + "px";

@@ -72,7 +72,7 @@ body {
 }
 
 /* Applying animation to the princess so 
-that it can save himself by jumping up */
+that it can save herself by jumping up */
 .animateprincess {
     animation: ani 1s linear;
 }
