@@ -1,5 +1,9 @@
 # Princess_World
 A game powered by CSS and JavaScript.  Made for my niece Kenley =)
+https://github.com/CHaskin91/Princess_World/blob/main/assets/images/screenshot.PNG
+
+## Game Instructions
+As Ariel, use left, right, or up on the arrow keys to jump over the incoming Ursula.  As the player progresses, Ursula will gradually attack at a faster speed.
 
 ## Live URL
 [https://chaskin91.github.io/Princess_World/]
